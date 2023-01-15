@@ -1,0 +1,77 @@
+QMainWindow {
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font-size: 15px;
+    font: schriftart;
+}
+QLineEdit {
+    color: black2;
+    background-color: green3;
+    selection-color: black2;
+    selection-background-color: green2;
+    font-size: 15px;
+    font: schriftart;
+}
+QWidget {
+    color: black2;
+    background-color: white2;
+    padding: 0px
+}
+QLabel {
+    color: black2;
+    background-color: white2;
+}
+
+QPushButton {
+    background-color: white1;
+    color: black2;
+    padding: 0px;
+}
+
+QGroupBox {
+    background-color: white2;
+    margin-top: 0 ;
+}
+QGroupBox QGroupBox {
+    background-color: white2;
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font-size: 15px;
+    font: schriftart;
+    border-color: white2
+}
+QGroupBox QGroupBox QGroupBox {
+    background-color: white2;
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font-size: 15px;
+    font: schriftart;
+    border-color: white2
+}
+
+QGroupBox::title {
+    background-color: white2;
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font-size: 15px;
+    font: schriftart;
+    border-color: white2
+}
+
+
+QToolbar {
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font-size: 15px;
+    font: schriftart;
+}

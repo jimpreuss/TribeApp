@@ -1,0 +1,140 @@
+QMainWindow {
+    color: black2;
+    background-color: of_white;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font : fontsize;
+    font-family: schriftart;
+    border: 0px;
+}
+QLineEdit {
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font : fontsize;
+    font-family: schriftart;
+    border: 0px;
+    border-color: transparent;
+}
+QWidget {
+    color: black2;
+    background-color: white2;
+    padding: 0px;
+    border: 0px solid black;
+    font : fontsize;
+    font-family: schriftart;
+}
+QLabel {
+    color: black2;
+    background-color: white3;
+    border: 1px solid white3;
+    padding: 10px;
+    font : fontsize;
+    font-family: schriftart;
+}
+
+QPushButton {
+    background-color: orange3;
+    color: black2;
+    padding: 0px;
+    border: 0px;
+    border-color: transparent;
+}
+QPushButton:pressed {
+    background-color: orange2;
+    color: black2;
+    padding: 0px;
+    border: 0px;
+    border-color: transparent;
+}
+
+QGroupBox {
+    background-color: white2;
+    margin-top: 0 ;
+    border: 1px solid black;
+    border-color: transparent;
+}
+
+QTextEdit {
+    background-color: white3;
+    selection-color: black2;
+    font-family: schriftart;
+    border: 0px;
+    border-color: transparent;
+    font: fontsize;
+    padding: 5px;
+}
+QGroupBox QGroupBox {
+    background-color: white2;
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font : fontsize;
+    font-family: schriftart;
+    border: 0px;
+    border-color: transparent;
+}
+QGroupBox QGroupBox QGroupBox {
+    background-color: white2;
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font : fontsize;
+    font-family: schriftart;
+    border: 0px;
+    border-color: transparent;
+}
+
+QGroupBox::title {
+    background-color: white2;
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font : fontsize;
+    font-family: schriftart;
+    border: 0px;
+    border-color: transparent;
+}
+
+QToolbar {
+    color: black2;
+    background-color: white2;
+    selection-color: black2;
+    selection-background-color: blue3;
+    font : fontsize;
+    font-family: schriftart;
+    border: 0px;
+    border-color: transparent;
+    spacing: 10px;
+    margin: 50px;
+}
+
+QScrollArea {
+    background-color: white2;
+}
+
+QScrollBar::handle {
+        background: orange3;
+        border-radius: 8px;
+        min-height: 50px;
+    }
+
+ QScrollBar::handle:vertical {
+        height: 25px;
+    }
+
+ QToolButton {
+    background: white3;
+    border: 2px solid white3;
+    margin: 5px;
+}
+
+ QToolButton:pressed {
+    background: white2;
+    border: 2px solid white2;
+
+}
